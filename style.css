@@ -1,0 +1,33 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Edu QLD Beginner', cursive;
+  background: url(1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+hr{
+  border-color: blue;
+  border-width: 3px;
+
+}
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+  }
+.btn-secondary:{
+  background-color: grey;
+  border-color: grey;
+  }
+.btn-secondary:hover{
+  background-color: red;
+  border-color: darkred;
+  border-width: 5px;
+  }
+.btn-xl{
+  padding: 1rem 2 rem;
+  }
